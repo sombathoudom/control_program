@@ -2,8 +2,14 @@
 export default defineNuxtConfig({
     modules: [
         '@nuxt-alt/proxy',
+        '@nuxt-alt/vuetify',
     ],
     proxy: {
         
-    }
+    },
+    vuetify: {
+        pluginOptions: {
+            styles: 'sass',
+        },
+    },
 })
