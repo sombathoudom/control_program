@@ -5,7 +5,9 @@ export default defineNuxtConfig({
         '@nuxt-alt/vuetify',
     ],
     proxy: {
-        
+        proxies: {
+            '/api': 'https://www.boredapi.com'
+        }
     },
     vuetify: {
         pluginOptions: {
