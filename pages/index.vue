@@ -12,7 +12,7 @@ import { ref } from "vue";
 
 const count = ref(0);
 
-function onClick() {
+const onClick = () => {
   count.value++;
   console.log("clicked");
 }
